@@ -5,6 +5,6 @@ This project analyses player data from the 25/26 premier league season, showcasi
 ## Tools Used
 * **Data Cleaning:** Microsoft Excel
 * **Database Management:** PostgreSQL / DBeaver
-* **Analysis and Querying** SQL
-* **Data Visualisation** Power BI
-* **Version Control** Github
+* **Analysis and Querying:** SQL
+* **Data Visualisation:** Power BI
+* **Version Control:** Github
