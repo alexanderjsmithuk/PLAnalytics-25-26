@@ -14,11 +14,11 @@ SELECT
     min,
     gls,
     ast,
-    g_plus_a,
-    ga_per90
+    "G+A",
+    "Goal Contributions Per 90"
 FROM player_stats
 WHERE min >= 900
-ORDER BY ga_per90 DESC
+ORDER BY "Goal Contributions Per 90" DESC
 LIMIT 10;
 
 -- -----------------------------------------------------
@@ -30,7 +30,7 @@ SELECT
     COUNT(player) AS total_players,
     SUM(gls) AS total_goals,
     SUM(ast) AS total_assists,
-    SUM(g_plus_a) AS total_contributions,
+    SUM("G+A") AS total_contributions,
     ROUND(AVG(min), 0) AS avg_player_minutes
 FROM player_stats
 GROUP BY squad
