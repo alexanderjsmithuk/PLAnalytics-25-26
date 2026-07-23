@@ -10,7 +10,7 @@ This project analyses player data from the 25/26 premier league season, showcasi
 * **Version Control:** Github
 
 ## 📊 Interactive Dashboard Preview
-![Premier League 2025/26 Attacking Efficiency Dashboard](Dashboard.pdf)
+![Premier League 2025/26 Attacking Efficiency Dashboard](PL_Dashboard.png)
 
 ### Key Dashboard Features:
 * **KPI Summaries:** Real-time tracking of total players analyzed, total goals, and total assists.
